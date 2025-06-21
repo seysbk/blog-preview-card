@@ -1,0 +1,119 @@
+*{
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    background-color: hsl(0,0%, 100%);
+    width: 384px;
+    height: 522px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+    /*        Right Down blur spread  color*/
+    border: 1px solid hsl(0, 0%, 7%);
+    min-width: 327px;
+    min-height: 501px;
+    padding-top: 24px;
+    
+
+}
+
+.image-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.top-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    max-height: max-content;
+    background: none;
+}
+
+img{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.text{
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 0;
+    gap: 12px;
+    margin: 0px 24px 24px 24px;
+}
+
+h1{
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+h3 {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 12px;
+    font-size: 0.875rem;
+    align-self: center;
+}
+
+p{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.sub {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.footer {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 16px;
+    gap: 12px;
+    width: 129px;
+    height: 32px;
+    margin-top: 44px;
+    margin: 36px 24px 24px 24px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.bottom-img {
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    align-self: center;
+}
+
+.words {
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.published{
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
